@@ -1,3 +1,4 @@
+//app.js
 import { Product } from "./product";
 
 function getProduct(){
