@@ -1,0 +1,30 @@
+img {
+    float : right;
+    width : 120px;
+    height : 120px;
+    margin-right : 40px;
+}
+.name {
+    font-size : 25px;
+    margin-top : 30px;
+    color : rgb(8, 36, 112);
+	padding-top : 2%;
+	font-family : Helvetica;
+	text-shadow : 1px 1px grey;
+}
+body{
+	background-color : azure;	
+}
+.url{
+    font-family : Helvetica;
+    font-size : 15px;
+}
+h1{
+    font-family : Helvetica;
+    color : white;
+    font-size: 60px;
+	padding-top:2%;
+    text-shadow:2px 1px grey;
+    background-color: rgba(3, 126, 3, 0.856);
+    background-size: 50% 50%;
+}

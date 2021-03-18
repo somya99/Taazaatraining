@@ -1,0 +1,36 @@
+<h2 style="text-align: center; ">COSMETIC</h2>
+<br>
+<div class="row">
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Bleach</th>
+            <th>Facepack</th>
+            <th>Eyecream</th>
+            <th>Expiry Date</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let p of products">
+            <td>
+                {{p.Bleach}}
+            </td>
+            <td>
+                {{p.Facepack}}
+            </td>
+            <td>
+                {{p.Eyecream}}
+            </td>
+            <td>
+                {{p.Price | currency}}
+            </td>
+            <td>
+                {{p.ExpiryDate | date}}
+            </td>
+             <button class="btn btn-warning">Click</button>
+             <button class="btn btn-danger">Delete</button>
+        </tr>
+    </tbody>
+    </table>
+</div>
