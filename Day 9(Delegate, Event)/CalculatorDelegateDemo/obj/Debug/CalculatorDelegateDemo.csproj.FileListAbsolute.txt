@@ -1,0 +1,7 @@
+C:\Users\S S INFOTECH\source\repos\CalculatorDelegateDemo\bin\Debug\CalculatorDelegateDemo.exe.config
+C:\Users\S S INFOTECH\source\repos\CalculatorDelegateDemo\bin\Debug\CalculatorDelegateDemo.exe
+C:\Users\S S INFOTECH\source\repos\CalculatorDelegateDemo\bin\Debug\CalculatorDelegateDemo.pdb
+C:\Users\S S INFOTECH\source\repos\CalculatorDelegateDemo\obj\Debug\CalculatorDelegateDemo.csprojAssemblyReference.cache
+C:\Users\S S INFOTECH\source\repos\CalculatorDelegateDemo\obj\Debug\CalculatorDelegateDemo.csproj.CoreCompileInputs.cache
+C:\Users\S S INFOTECH\source\repos\CalculatorDelegateDemo\obj\Debug\CalculatorDelegateDemo.exe
+C:\Users\S S INFOTECH\source\repos\CalculatorDelegateDemo\obj\Debug\CalculatorDelegateDemo.pdb
