@@ -1,0 +1,5 @@
+C:\Users\S S INFOTECH\source\repos\CalculatorLib\bin\Debug\CalculatorLib.dll
+C:\Users\S S INFOTECH\source\repos\CalculatorLib\bin\Debug\CalculatorLib.pdb
+C:\Users\S S INFOTECH\source\repos\CalculatorLib\obj\Debug\CalculatorLib.csproj.CoreCompileInputs.cache
+C:\Users\S S INFOTECH\source\repos\CalculatorLib\obj\Debug\CalculatorLib.dll
+C:\Users\S S INFOTECH\source\repos\CalculatorLib\obj\Debug\CalculatorLib.pdb
