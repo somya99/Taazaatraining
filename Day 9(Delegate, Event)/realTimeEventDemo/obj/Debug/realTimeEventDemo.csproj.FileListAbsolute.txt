@@ -1,0 +1,7 @@
+C:\Users\S S INFOTECH\source\repos\realTimeEventDemo\bin\Debug\realTimeEventDemo.exe.config
+C:\Users\S S INFOTECH\source\repos\realTimeEventDemo\bin\Debug\realTimeEventDemo.exe
+C:\Users\S S INFOTECH\source\repos\realTimeEventDemo\bin\Debug\realTimeEventDemo.pdb
+C:\Users\S S INFOTECH\source\repos\realTimeEventDemo\obj\Debug\realTimeEventDemo.csprojAssemblyReference.cache
+C:\Users\S S INFOTECH\source\repos\realTimeEventDemo\obj\Debug\realTimeEventDemo.csproj.CoreCompileInputs.cache
+C:\Users\S S INFOTECH\source\repos\realTimeEventDemo\obj\Debug\realTimeEventDemo.exe
+C:\Users\S S INFOTECH\source\repos\realTimeEventDemo\obj\Debug\realTimeEventDemo.pdb

@@ -1,0 +1,6 @@
+C:\Users\S S INFOTECH\source\repos\realtimedelegatedemo\bin\Debug\realtimedelegatedemo.exe.config
+C:\Users\S S INFOTECH\source\repos\realtimedelegatedemo\bin\Debug\realtimedelegatedemo.exe
+C:\Users\S S INFOTECH\source\repos\realtimedelegatedemo\bin\Debug\realtimedelegatedemo.pdb
+C:\Users\S S INFOTECH\source\repos\realtimedelegatedemo\obj\Debug\realtimedelegatedemo.csproj.CoreCompileInputs.cache
+C:\Users\S S INFOTECH\source\repos\realtimedelegatedemo\obj\Debug\realtimedelegatedemo.exe
+C:\Users\S S INFOTECH\source\repos\realtimedelegatedemo\obj\Debug\realtimedelegatedemo.pdb
