@@ -1,4 +1,4 @@
-//prototype.
+
 function Animal(owner){
     this.owner = owner
     
