@@ -1,0 +1,7 @@
+C:\Users\S S INFOTECH\source\repos\TaskMessage\bin\Debug\TaskMessage.exe.config
+C:\Users\S S INFOTECH\source\repos\TaskMessage\bin\Debug\TaskMessage.exe
+C:\Users\S S INFOTECH\source\repos\TaskMessage\bin\Debug\TaskMessage.pdb
+C:\Users\S S INFOTECH\source\repos\TaskMessage\obj\Debug\TaskMessage.csprojAssemblyReference.cache
+C:\Users\S S INFOTECH\source\repos\TaskMessage\obj\Debug\TaskMessage.csproj.CoreCompileInputs.cache
+C:\Users\S S INFOTECH\source\repos\TaskMessage\obj\Debug\TaskMessage.exe
+C:\Users\S S INFOTECH\source\repos\TaskMessage\obj\Debug\TaskMessage.pdb
