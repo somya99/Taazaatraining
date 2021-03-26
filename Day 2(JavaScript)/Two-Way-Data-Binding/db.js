@@ -1,3 +1,4 @@
+//js
 (function(){
     console.log("Two way data binding Implementation");
     var elements = document.querySelectorAll('[data-geek97-bind]');
