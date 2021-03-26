@@ -1,0 +1,7 @@
+C:\Users\S S INFOTECH\source\repos\LambdaProduct\bin\Debug\LambdaProduct.exe.config
+C:\Users\S S INFOTECH\source\repos\LambdaProduct\bin\Debug\LambdaProduct.exe
+C:\Users\S S INFOTECH\source\repos\LambdaProduct\bin\Debug\LambdaProduct.pdb
+C:\Users\S S INFOTECH\source\repos\LambdaProduct\obj\Debug\LambdaProduct.csprojAssemblyReference.cache
+C:\Users\S S INFOTECH\source\repos\LambdaProduct\obj\Debug\LambdaProduct.csproj.CoreCompileInputs.cache
+C:\Users\S S INFOTECH\source\repos\LambdaProduct\obj\Debug\LambdaProduct.exe
+C:\Users\S S INFOTECH\source\repos\LambdaProduct\obj\Debug\LambdaProduct.pdb
