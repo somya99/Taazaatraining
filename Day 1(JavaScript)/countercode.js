@@ -1,4 +1,3 @@
-/*counter*/
 function count(){
     let result = 0;
     function countIntern(){
