@@ -1,0 +1,6 @@
+C:\Users\S S INFOTECH\source\repos\genericdemo\obj\Debug\genericdemo.csproj.CoreCompileInputs.cache
+C:\Users\S S INFOTECH\source\repos\genericdemo\bin\Debug\genericdemo.exe.config
+C:\Users\S S INFOTECH\source\repos\genericdemo\bin\Debug\genericdemo.exe
+C:\Users\S S INFOTECH\source\repos\genericdemo\bin\Debug\genericdemo.pdb
+C:\Users\S S INFOTECH\source\repos\genericdemo\obj\Debug\genericdemo.exe
+C:\Users\S S INFOTECH\source\repos\genericdemo\obj\Debug\genericdemo.pdb

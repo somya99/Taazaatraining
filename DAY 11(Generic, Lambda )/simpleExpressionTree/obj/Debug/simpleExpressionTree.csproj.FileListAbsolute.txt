@@ -1,0 +1,7 @@
+C:\Users\S S INFOTECH\source\repos\simpleExpressionTree\bin\Debug\simpleExpressionTree.exe.config
+C:\Users\S S INFOTECH\source\repos\simpleExpressionTree\bin\Debug\simpleExpressionTree.exe
+C:\Users\S S INFOTECH\source\repos\simpleExpressionTree\bin\Debug\simpleExpressionTree.pdb
+C:\Users\S S INFOTECH\source\repos\simpleExpressionTree\obj\Debug\simpleExpressionTree.csprojAssemblyReference.cache
+C:\Users\S S INFOTECH\source\repos\simpleExpressionTree\obj\Debug\simpleExpressionTree.csproj.CoreCompileInputs.cache
+C:\Users\S S INFOTECH\source\repos\simpleExpressionTree\obj\Debug\simpleExpressionTree.exe
+C:\Users\S S INFOTECH\source\repos\simpleExpressionTree\obj\Debug\simpleExpressionTree.pdb
