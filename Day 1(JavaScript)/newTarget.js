@@ -1,3 +1,4 @@
+/*newTarget*/
 function Product(title, price) {
     if (!new.target) {
         throw "Product()' is a constructor, and must be called with new"
