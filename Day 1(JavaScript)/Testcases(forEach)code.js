@@ -1,3 +1,4 @@
+/*foreach*/
 function add(num1, num2, ...ep){
     if(arguments.length < 2){
         return 0;
