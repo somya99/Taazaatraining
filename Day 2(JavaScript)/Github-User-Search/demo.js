@@ -1,4 +1,3 @@
-//demo 2
 window.addEventListener("load", function(){
     let name_input = document.getElementById('userInput');
     name_input.addEventListener("keyup", function(event){
