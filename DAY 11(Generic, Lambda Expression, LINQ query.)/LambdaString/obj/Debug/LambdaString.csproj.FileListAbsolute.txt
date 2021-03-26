@@ -1,0 +1,7 @@
+C:\Users\S S INFOTECH\source\repos\LambdaString\bin\Debug\LambdaString.exe.config
+C:\Users\S S INFOTECH\source\repos\LambdaString\bin\Debug\LambdaString.exe
+C:\Users\S S INFOTECH\source\repos\LambdaString\bin\Debug\LambdaString.pdb
+C:\Users\S S INFOTECH\source\repos\LambdaString\obj\Debug\LambdaString.csprojAssemblyReference.cache
+C:\Users\S S INFOTECH\source\repos\LambdaString\obj\Debug\LambdaString.csproj.CoreCompileInputs.cache
+C:\Users\S S INFOTECH\source\repos\LambdaString\obj\Debug\LambdaString.exe
+C:\Users\S S INFOTECH\source\repos\LambdaString\obj\Debug\LambdaString.pdb
