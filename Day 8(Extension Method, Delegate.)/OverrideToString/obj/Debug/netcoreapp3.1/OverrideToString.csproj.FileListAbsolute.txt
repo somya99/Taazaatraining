@@ -1,0 +1,13 @@
+C:\Users\S S INFOTECH\source\repos\OverrideToString\bin\Debug\netcoreapp3.1\OverrideToString.exe
+C:\Users\S S INFOTECH\source\repos\OverrideToString\bin\Debug\netcoreapp3.1\OverrideToString.deps.json
+C:\Users\S S INFOTECH\source\repos\OverrideToString\bin\Debug\netcoreapp3.1\OverrideToString.runtimeconfig.json
+C:\Users\S S INFOTECH\source\repos\OverrideToString\bin\Debug\netcoreapp3.1\OverrideToString.runtimeconfig.dev.json
+C:\Users\S S INFOTECH\source\repos\OverrideToString\bin\Debug\netcoreapp3.1\OverrideToString.dll
+C:\Users\S S INFOTECH\source\repos\OverrideToString\bin\Debug\netcoreapp3.1\OverrideToString.pdb
+C:\Users\S S INFOTECH\source\repos\OverrideToString\obj\Debug\netcoreapp3.1\OverrideToString.csprojAssemblyReference.cache
+C:\Users\S S INFOTECH\source\repos\OverrideToString\obj\Debug\netcoreapp3.1\OverrideToString.AssemblyInfoInputs.cache
+C:\Users\S S INFOTECH\source\repos\OverrideToString\obj\Debug\netcoreapp3.1\OverrideToString.AssemblyInfo.cs
+C:\Users\S S INFOTECH\source\repos\OverrideToString\obj\Debug\netcoreapp3.1\OverrideToString.csproj.CoreCompileInputs.cache
+C:\Users\S S INFOTECH\source\repos\OverrideToString\obj\Debug\netcoreapp3.1\OverrideToString.dll
+C:\Users\S S INFOTECH\source\repos\OverrideToString\obj\Debug\netcoreapp3.1\OverrideToString.pdb
+C:\Users\S S INFOTECH\source\repos\OverrideToString\obj\Debug\netcoreapp3.1\OverrideToString.genruntimeconfig.cache

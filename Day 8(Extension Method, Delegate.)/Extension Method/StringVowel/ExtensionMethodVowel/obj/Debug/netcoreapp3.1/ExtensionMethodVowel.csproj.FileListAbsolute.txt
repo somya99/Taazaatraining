@@ -1,0 +1,13 @@
+C:\Users\S S INFOTECH\source\repos\day 8\Extension Method\ExtensionMethodVowel\bin\Debug\netcoreapp3.1\ExtensionMethodVowel.exe
+C:\Users\S S INFOTECH\source\repos\day 8\Extension Method\ExtensionMethodVowel\bin\Debug\netcoreapp3.1\ExtensionMethodVowel.deps.json
+C:\Users\S S INFOTECH\source\repos\day 8\Extension Method\ExtensionMethodVowel\bin\Debug\netcoreapp3.1\ExtensionMethodVowel.runtimeconfig.json
+C:\Users\S S INFOTECH\source\repos\day 8\Extension Method\ExtensionMethodVowel\bin\Debug\netcoreapp3.1\ExtensionMethodVowel.runtimeconfig.dev.json
+C:\Users\S S INFOTECH\source\repos\day 8\Extension Method\ExtensionMethodVowel\bin\Debug\netcoreapp3.1\ExtensionMethodVowel.dll
+C:\Users\S S INFOTECH\source\repos\day 8\Extension Method\ExtensionMethodVowel\bin\Debug\netcoreapp3.1\ExtensionMethodVowel.pdb
+C:\Users\S S INFOTECH\source\repos\day 8\Extension Method\ExtensionMethodVowel\obj\Debug\netcoreapp3.1\ExtensionMethodVowel.csprojAssemblyReference.cache
+C:\Users\S S INFOTECH\source\repos\day 8\Extension Method\ExtensionMethodVowel\obj\Debug\netcoreapp3.1\ExtensionMethodVowel.AssemblyInfoInputs.cache
+C:\Users\S S INFOTECH\source\repos\day 8\Extension Method\ExtensionMethodVowel\obj\Debug\netcoreapp3.1\ExtensionMethodVowel.AssemblyInfo.cs
+C:\Users\S S INFOTECH\source\repos\day 8\Extension Method\ExtensionMethodVowel\obj\Debug\netcoreapp3.1\ExtensionMethodVowel.csproj.CoreCompileInputs.cache
+C:\Users\S S INFOTECH\source\repos\day 8\Extension Method\ExtensionMethodVowel\obj\Debug\netcoreapp3.1\ExtensionMethodVowel.dll
+C:\Users\S S INFOTECH\source\repos\day 8\Extension Method\ExtensionMethodVowel\obj\Debug\netcoreapp3.1\ExtensionMethodVowel.pdb
+C:\Users\S S INFOTECH\source\repos\day 8\Extension Method\ExtensionMethodVowel\obj\Debug\netcoreapp3.1\ExtensionMethodVowel.genruntimeconfig.cache

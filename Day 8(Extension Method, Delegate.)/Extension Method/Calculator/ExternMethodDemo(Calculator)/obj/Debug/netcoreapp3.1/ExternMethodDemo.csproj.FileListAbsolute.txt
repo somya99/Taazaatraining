@@ -1,0 +1,36 @@
+C:\Users\S S INFOTECH\source\repos\ExternMethodDemo\bin\Debug\netcoreapp3.1\ExternMethodDemo.exe
+C:\Users\S S INFOTECH\source\repos\ExternMethodDemo\bin\Debug\netcoreapp3.1\ExternMethodDemo.deps.json
+C:\Users\S S INFOTECH\source\repos\ExternMethodDemo\bin\Debug\netcoreapp3.1\ExternMethodDemo.runtimeconfig.json
+C:\Users\S S INFOTECH\source\repos\ExternMethodDemo\bin\Debug\netcoreapp3.1\ExternMethodDemo.runtimeconfig.dev.json
+C:\Users\S S INFOTECH\source\repos\ExternMethodDemo\bin\Debug\netcoreapp3.1\ExternMethodDemo.dll
+C:\Users\S S INFOTECH\source\repos\ExternMethodDemo\bin\Debug\netcoreapp3.1\ExternMethodDemo.pdb
+C:\Users\S S INFOTECH\source\repos\ExternMethodDemo\bin\Debug\netcoreapp3.1\CalculatorLib.dll
+C:\Users\S S INFOTECH\source\repos\ExternMethodDemo\bin\Debug\netcoreapp3.1\CalculatorLib.pdb
+C:\Users\S S INFOTECH\source\repos\ExternMethodDemo\obj\Debug\netcoreapp3.1\ExternMethodDemo.csprojAssemblyReference.cache
+C:\Users\S S INFOTECH\source\repos\ExternMethodDemo\obj\Debug\netcoreapp3.1\ExternMethodDemo.AssemblyInfoInputs.cache
+C:\Users\S S INFOTECH\source\repos\ExternMethodDemo\obj\Debug\netcoreapp3.1\ExternMethodDemo.AssemblyInfo.cs
+C:\Users\S S INFOTECH\source\repos\ExternMethodDemo\obj\Debug\netcoreapp3.1\ExternMethodDemo.csproj.CoreCompileInputs.cache
+C:\Users\S S INFOTECH\source\repos\ExternMethodDemo\obj\Debug\netcoreapp3.1\ExternMethodDemo.csproj.CopyComplete
+C:\Users\S S INFOTECH\source\repos\ExternMethodDemo\obj\Debug\netcoreapp3.1\ExternMethodDemo.dll
+C:\Users\S S INFOTECH\source\repos\ExternMethodDemo\obj\Debug\netcoreapp3.1\ExternMethodDemo.pdb
+C:\Users\S S INFOTECH\source\repos\ExternMethodDemo\obj\Debug\netcoreapp3.1\ExternMethodDemo.genruntimeconfig.cache
+C:\Users\S S INFOTECH\source\repos\ExternMethodDemo\bin\Debug\netcoreapp3.1\StringLib.dll
+C:\Users\S S INFOTECH\source\repos\ExternMethodDemo\bin\Debug\netcoreapp3.1\StringLib.pdb
+C:\Users\S S INFOTECH\source\repos\day 8\Extension Method\ExternMethodDemo\bin\Debug\netcoreapp3.1\ExternMethodDemo.exe
+C:\Users\S S INFOTECH\source\repos\day 8\Extension Method\ExternMethodDemo\bin\Debug\netcoreapp3.1\ExternMethodDemo.deps.json
+C:\Users\S S INFOTECH\source\repos\day 8\Extension Method\ExternMethodDemo\bin\Debug\netcoreapp3.1\ExternMethodDemo.runtimeconfig.json
+C:\Users\S S INFOTECH\source\repos\day 8\Extension Method\ExternMethodDemo\bin\Debug\netcoreapp3.1\ExternMethodDemo.runtimeconfig.dev.json
+C:\Users\S S INFOTECH\source\repos\day 8\Extension Method\ExternMethodDemo\bin\Debug\netcoreapp3.1\ExternMethodDemo.dll
+C:\Users\S S INFOTECH\source\repos\day 8\Extension Method\ExternMethodDemo\bin\Debug\netcoreapp3.1\ExternMethodDemo.pdb
+C:\Users\S S INFOTECH\source\repos\day 8\Extension Method\ExternMethodDemo\bin\Debug\netcoreapp3.1\CalculatorLib.dll
+C:\Users\S S INFOTECH\source\repos\day 8\Extension Method\ExternMethodDemo\bin\Debug\netcoreapp3.1\StringLib.dll
+C:\Users\S S INFOTECH\source\repos\day 8\Extension Method\ExternMethodDemo\bin\Debug\netcoreapp3.1\CalculatorLib.pdb
+C:\Users\S S INFOTECH\source\repos\day 8\Extension Method\ExternMethodDemo\bin\Debug\netcoreapp3.1\StringLib.pdb
+C:\Users\S S INFOTECH\source\repos\day 8\Extension Method\ExternMethodDemo\obj\Debug\netcoreapp3.1\ExternMethodDemo.csprojAssemblyReference.cache
+C:\Users\S S INFOTECH\source\repos\day 8\Extension Method\ExternMethodDemo\obj\Debug\netcoreapp3.1\ExternMethodDemo.AssemblyInfoInputs.cache
+C:\Users\S S INFOTECH\source\repos\day 8\Extension Method\ExternMethodDemo\obj\Debug\netcoreapp3.1\ExternMethodDemo.AssemblyInfo.cs
+C:\Users\S S INFOTECH\source\repos\day 8\Extension Method\ExternMethodDemo\obj\Debug\netcoreapp3.1\ExternMethodDemo.csproj.CoreCompileInputs.cache
+C:\Users\S S INFOTECH\source\repos\day 8\Extension Method\ExternMethodDemo\obj\Debug\netcoreapp3.1\ExternMethodDemo.csproj.CopyComplete
+C:\Users\S S INFOTECH\source\repos\day 8\Extension Method\ExternMethodDemo\obj\Debug\netcoreapp3.1\ExternMethodDemo.dll
+C:\Users\S S INFOTECH\source\repos\day 8\Extension Method\ExternMethodDemo\obj\Debug\netcoreapp3.1\ExternMethodDemo.pdb
+C:\Users\S S INFOTECH\source\repos\day 8\Extension Method\ExternMethodDemo\obj\Debug\netcoreapp3.1\ExternMethodDemo.genruntimeconfig.cache

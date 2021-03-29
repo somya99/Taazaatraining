@@ -1,0 +1,5 @@
+C:\Users\S S INFOTECH\source\repos\StringLib\bin\Debug\StringLib.dll
+C:\Users\S S INFOTECH\source\repos\StringLib\bin\Debug\StringLib.pdb
+C:\Users\S S INFOTECH\source\repos\StringLib\obj\Debug\StringLib.csproj.CoreCompileInputs.cache
+C:\Users\S S INFOTECH\source\repos\StringLib\obj\Debug\StringLib.dll
+C:\Users\S S INFOTECH\source\repos\StringLib\obj\Debug\StringLib.pdb
