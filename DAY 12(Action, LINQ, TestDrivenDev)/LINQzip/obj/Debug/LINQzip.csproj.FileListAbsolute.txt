@@ -1,0 +1,6 @@
+C:\Users\S S INFOTECH\source\repos\LINQzip\bin\Debug\LINQzip.exe.config
+C:\Users\S S INFOTECH\source\repos\LINQzip\bin\Debug\LINQzip.exe
+C:\Users\S S INFOTECH\source\repos\LINQzip\bin\Debug\LINQzip.pdb
+C:\Users\S S INFOTECH\source\repos\LINQzip\obj\Debug\LINQzip.csproj.CoreCompileInputs.cache
+C:\Users\S S INFOTECH\source\repos\LINQzip\obj\Debug\LINQzip.exe
+C:\Users\S S INFOTECH\source\repos\LINQzip\obj\Debug\LINQzip.pdb
