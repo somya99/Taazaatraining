@@ -1,0 +1,9 @@
+C:\Users\S S INFOTECH\source\repos\TestDrivenDev\Calculatorlib\bin\Debug\netcoreapp3.1\Calculatorlib.deps.json
+C:\Users\S S INFOTECH\source\repos\TestDrivenDev\Calculatorlib\bin\Debug\netcoreapp3.1\Calculatorlib.dll
+C:\Users\S S INFOTECH\source\repos\TestDrivenDev\Calculatorlib\bin\Debug\netcoreapp3.1\Calculatorlib.pdb
+C:\Users\S S INFOTECH\source\repos\TestDrivenDev\Calculatorlib\obj\Debug\netcoreapp3.1\Calculatorlib.csprojAssemblyReference.cache
+C:\Users\S S INFOTECH\source\repos\TestDrivenDev\Calculatorlib\obj\Debug\netcoreapp3.1\Calculatorlib.AssemblyInfoInputs.cache
+C:\Users\S S INFOTECH\source\repos\TestDrivenDev\Calculatorlib\obj\Debug\netcoreapp3.1\Calculatorlib.AssemblyInfo.cs
+C:\Users\S S INFOTECH\source\repos\TestDrivenDev\Calculatorlib\obj\Debug\netcoreapp3.1\Calculatorlib.csproj.CoreCompileInputs.cache
+C:\Users\S S INFOTECH\source\repos\TestDrivenDev\Calculatorlib\obj\Debug\netcoreapp3.1\Calculatorlib.dll
+C:\Users\S S INFOTECH\source\repos\TestDrivenDev\Calculatorlib\obj\Debug\netcoreapp3.1\Calculatorlib.pdb

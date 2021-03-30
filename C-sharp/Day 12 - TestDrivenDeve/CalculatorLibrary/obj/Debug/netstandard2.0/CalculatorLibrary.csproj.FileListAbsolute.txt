@@ -1,0 +1,18 @@
+C:\Users\S S INFOTECH\source\repos\TestDrivenDev\CalculatorLibrary\bin\Debug\netstandard2.0\CalculatorLibrary.deps.json
+C:\Users\S S INFOTECH\source\repos\TestDrivenDev\CalculatorLibrary\bin\Debug\netstandard2.0\CalculatorLibrary.dll
+C:\Users\S S INFOTECH\source\repos\TestDrivenDev\CalculatorLibrary\bin\Debug\netstandard2.0\CalculatorLibrary.pdb
+C:\Users\S S INFOTECH\source\repos\TestDrivenDev\CalculatorLibrary\obj\Debug\netstandard2.0\CalculatorLibrary.AssemblyInfoInputs.cache
+C:\Users\S S INFOTECH\source\repos\TestDrivenDev\CalculatorLibrary\obj\Debug\netstandard2.0\CalculatorLibrary.AssemblyInfo.cs
+C:\Users\S S INFOTECH\source\repos\TestDrivenDev\CalculatorLibrary\obj\Debug\netstandard2.0\CalculatorLibrary.csproj.CoreCompileInputs.cache
+C:\Users\S S INFOTECH\source\repos\TestDrivenDev\CalculatorLibrary\obj\Debug\netstandard2.0\CalculatorLibrary.dll
+C:\Users\S S INFOTECH\source\repos\TestDrivenDev\CalculatorLibrary\obj\Debug\netstandard2.0\CalculatorLibrary.pdb
+C:\Users\S S INFOTECH\source\repos\TestDrivenDev\CalculatorLibrary\obj\Debug\netstandard2.0\CalculatorLibrary.csprojAssemblyReference.cache
+C:\Users\S S INFOTECH\OneDrive - Taazaa Tech Pvt Ltd\GitHub Repos\TestDrivenDev\CalculatorLibrary\bin\Debug\netstandard2.0\CalculatorLibrary.deps.json
+C:\Users\S S INFOTECH\OneDrive - Taazaa Tech Pvt Ltd\GitHub Repos\TestDrivenDev\CalculatorLibrary\bin\Debug\netstandard2.0\CalculatorLibrary.dll
+C:\Users\S S INFOTECH\OneDrive - Taazaa Tech Pvt Ltd\GitHub Repos\TestDrivenDev\CalculatorLibrary\bin\Debug\netstandard2.0\CalculatorLibrary.pdb
+C:\Users\S S INFOTECH\OneDrive - Taazaa Tech Pvt Ltd\GitHub Repos\TestDrivenDev\CalculatorLibrary\obj\Debug\netstandard2.0\CalculatorLibrary.csprojAssemblyReference.cache
+C:\Users\S S INFOTECH\OneDrive - Taazaa Tech Pvt Ltd\GitHub Repos\TestDrivenDev\CalculatorLibrary\obj\Debug\netstandard2.0\CalculatorLibrary.AssemblyInfoInputs.cache
+C:\Users\S S INFOTECH\OneDrive - Taazaa Tech Pvt Ltd\GitHub Repos\TestDrivenDev\CalculatorLibrary\obj\Debug\netstandard2.0\CalculatorLibrary.AssemblyInfo.cs
+C:\Users\S S INFOTECH\OneDrive - Taazaa Tech Pvt Ltd\GitHub Repos\TestDrivenDev\CalculatorLibrary\obj\Debug\netstandard2.0\CalculatorLibrary.csproj.CoreCompileInputs.cache
+C:\Users\S S INFOTECH\OneDrive - Taazaa Tech Pvt Ltd\GitHub Repos\TestDrivenDev\CalculatorLibrary\obj\Debug\netstandard2.0\CalculatorLibrary.dll
+C:\Users\S S INFOTECH\OneDrive - Taazaa Tech Pvt Ltd\GitHub Repos\TestDrivenDev\CalculatorLibrary\obj\Debug\netstandard2.0\CalculatorLibrary.pdb
