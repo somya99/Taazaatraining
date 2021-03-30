@@ -1,0 +1,7 @@
+C:\Users\S S INFOTECH\source\repos\ActionDelegateGeneric\bin\Debug\ActionDelegateGeneric.exe.config
+C:\Users\S S INFOTECH\source\repos\ActionDelegateGeneric\bin\Debug\ActionDelegateGeneric.exe
+C:\Users\S S INFOTECH\source\repos\ActionDelegateGeneric\bin\Debug\ActionDelegateGeneric.pdb
+C:\Users\S S INFOTECH\source\repos\ActionDelegateGeneric\obj\Debug\ActionDelegateGeneric.csprojAssemblyReference.cache
+C:\Users\S S INFOTECH\source\repos\ActionDelegateGeneric\obj\Debug\ActionDelegateGeneric.csproj.CoreCompileInputs.cache
+C:\Users\S S INFOTECH\source\repos\ActionDelegateGeneric\obj\Debug\ActionDelegateGeneric.exe
+C:\Users\S S INFOTECH\source\repos\ActionDelegateGeneric\obj\Debug\ActionDelegateGeneric.pdb
