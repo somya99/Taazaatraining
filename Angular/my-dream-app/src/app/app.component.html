@@ -2,7 +2,7 @@
     <h1 class = "text-center"> {{title}} </h1>
     
     <div class = "row">
-      <div class ="col-md-3">
+      <div class ="col-md-2">
 
       </div>
             <div class = "col-md-3">
@@ -10,6 +10,9 @@
             </div>
             <div class = "col-md-3">
               <button (click)='showproductlistdemo()' class="btn btn-warning">Product List Demo</button>
+            </div>
+            <div class = "col-md-3">
+              <button (click)='showmasterdetails()' class="btn btn-danger">Master Details</button>
             </div> 
             
     </div>
@@ -23,9 +26,12 @@
   
   <app-tshirtdatabinding *ngIf = "showImageChangeDemo"></app-tshirtdatabinding>
   <app-product *ngIf = "showProductListDemo"></app-product>
+</div>
+  <app-purchase *ngIf = "showMasterDetails"></app-purchase>
+  
 
 
-  </div>
+  
 
   </div>
 </div>
