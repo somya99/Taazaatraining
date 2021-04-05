@@ -1,3 +1,5 @@
+<hr/>
+<h1 class= "text-danger text-center"><b>Product List with Details</b></h1>
 <div class = "row">
     <table class = "table">
         <thead>
@@ -15,10 +17,10 @@
                     Expiry Date
                 </th>
                 <th>
-                    isInStock
+                    Quantity
                 </th>
                 <th>
-                    Quantity
+                    isInStock
                 </th>
             </tr>
         </thead>
@@ -44,16 +46,25 @@
                     </ng-container>
                      
                     <ng-template #instock>
-                        <i class="fa fa-check" aria-hidden="true"></i>
-
+                        <!-- <i class="fa fa-check" aria-hidden="true"></i> -->
+                        <i style = "color : green;"class="far fa-check-circle"></i>
                      </ng-template>
 
                      <ng-template #outofstock>
-                        <i class="fa fa-times" aria-hidden="true"></i>
+                        <i style = "color : red;" class="far fa-times-circle"></i>
+                        
                         <button class = "btn btn-default">Order Now</button>
                       </ng-template>
                 </td>
             </tr>
         </tbody>
     </table>
+</div>
+<br>
+<div class ="row">
+  <div class ="col-md-12">
+      <footer>
+          <p style = "color : blue"><b>This is a demo of Structure Directive in Angular. An interface having properties of Product get exported. The various enteries of product is done with the help of service. Table format is used to display the product list detail. Pipe is used in Price to get currency in INR format and in Expiry date to diplay date format. inStock is displayed by applying conditions in Angular Template, if it is in stock then display green tick symbol and if out of stock then display red cross long with a button(Order Now). Bootstrap cdn is beign used to get access of font awesome icons.  </b></p>
+      </footer>
+  </div>
 </div>

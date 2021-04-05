@@ -1,0 +1,58 @@
+<!-- <h1>In Child 2</h1>
+<div class = "row">
+    
+    <div class = "col-md-6">
+<form>
+    <label for="fname">Enter any data:</label><br>
+    <input type="text" id="fname" name="fname"><br>
+    
+  </form>
+  <br>
+  <button >Set Data</button>
+  <button>Get Data</button>
+</div>
+</div> -->
+<h1 class= "text-danger"><b>Product Information</b></h1>
+<div class = "row">
+    <table class = "table">
+        <thead>
+            <tr>
+                <th>
+                    Id
+                </th>
+                <th>
+                    Title
+                </th>
+                <th>
+                    Price
+                </th>
+                <th>
+                    Expiry Date
+                </th>
+                <th>
+                    isInStock
+                </th>
+                <th>
+                    Quantity
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>{{iproduct.Id}}</td>
+                <td>{{iproduct.Title}}</td>
+                <td>{{iproduct.Price | currency : 'INR'}}</td>
+                <td>{{iproduct.ExpiryDate | date}}</td>
+                <td>{{iproduct.isInStock}}</td>
+                <td>{{iproduct.Quantity}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div class ="row">
+    <div class ="col-md-12">
+        <footer>
+            <p style = "color : blue"><b>This is a demo of Component Communication among components that are not related to each other. Here declared two components one is having a input box to accept the price entry and a button to set the price. ngModel is used for data binding that would be helpful in setting the price of entry which is declared in another component. Services is used to communicate among two components. When price get set in input parameter of a component that will get updated in the prices of entry displayed in another component.  </b></p>
+        </footer>
+    </div>
+</div>

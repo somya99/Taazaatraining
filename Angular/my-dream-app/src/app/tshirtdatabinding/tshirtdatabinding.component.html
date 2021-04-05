@@ -1,13 +1,19 @@
- <div class = "container">
+<hr/>
+<h1 class= "text-danger text-center"><b>Data Binding using Tshirt Image</b></h1>
+<div class = "container">
     
     <div class = "row">
             <div class = "col-md-2">
 
             </div>
+            
             <div class = "col-md-4">
+              <p>Height:</p>
               <input [(ngModel)] = 'height' type = "number" class="form-control" />
             </div> 
+            
             <div class = "col-md-4">
+              <p>Width:</p>
               <input [(ngModel)] = 'width' type = "number" class="form-control" />
             </div>
             <div class = "col-md-2">
@@ -31,4 +37,15 @@
 
   </div>
 </div>
+<br>
+<div class ="row">
+  <div class ="col-md-12">
+      <footer>
+          <p style = "color : blue"><b>This is a demo of Data Binding in Angular that is achieved using ngModel to set height and width of image. Events such as mouse enter and mouse leave is used to change the image as the mouse is hovered over the image. User can access height and width of image by setting it on display.</b></p>
+      </footer>
+  </div>
+</div>
 
+
+              
+              

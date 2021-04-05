@@ -1,6 +1,7 @@
+<hr/>
 <div class = "row">
     <div class="col-md-12">
-    <h2 class= "text-danger text-center">Master Deatils using Component Communication</h2>
+    <h1 class= "text-danger text-center"><b>Master Deatils using Component Communication</b></h1>
 </div>
 
 <hr/>
@@ -13,7 +14,7 @@
         <thead class = "thead-dark"   align="center">
             <tr>
                 <th>Item Id</th>
-                <th>Purchased Item</th>
+                <th>Dealer Purchased Item</th>
                 <th>Select Item for Detail</th>
             </tr>
         </thead>
@@ -42,4 +43,12 @@
         </mat-expansion-panel>
     </mat-accordion>
 </div>
+</div>
+<br>
+<div class ="row">
+  <div class ="col-md-12">
+      <footer>
+          <p style = "color : blue"><b>This is a demo of Component Communication among components that are in relation with each other. An interface having properties of Purchase List get exported. The various enteries of purchase is done with the help of service. Expansion Panel is used to display the product list detail in the respective dealer row who purchased items. When clicked on dealer name the panel get expaneded having detail of all the product purchased along with total price of all the product it the list within a button. @Input decorator is used to pass data from parent to child component and ngOnChanges is used to capture changes. </b></p>
+      </footer>
+  </div>
 </div>

@@ -1,40 +1,65 @@
+
  <div class = "container">
-    <h1 class = "text-center"> {{title}} </h1>
+    <h1 class = "text-center "><b><i> {{title}} </i></b></h1>
     
-    <div class = "row">
-      <div class ="col-md-2">
-
-      </div>
-            <div class = "col-md-3">
-                <button (click)='showimagechangedemo()' class="btn btn-danger">Image Change Demo</button>
+    <!-- <div class = "row">
+      
+            <div class = "col-md-2">
+              <button  routerLink = "/home" class="btn btn-danger">Somya Das</button>
             </div>
-            <div class = "col-md-3">
-              <button (click)='showproductlistdemo()' class="btn btn-warning">Product List Demo</button>
+            <div class = "col-md-2">
+                <button  routerLink = "/databinding" class="btn btn-warning">Data Biniding</button>
             </div>
-            <div class = "col-md-3">
-              <button (click)='showmasterdetails()' class="btn btn-danger">Master Details</button>
+            <div class = "col-md-2">
+              <button  routerLink = "/product" class="btn btn-danger">Product</button>
+            </div>
+            <div class = "col-md-2">
+              <button  routerLink = "/purchase" class="btn btn-warning">Master Details</button>
             </div> 
-            
-    </div>
-  
+            <div class = "col-md-2">
+              <button  routerLink = "/unrelatedcomponent" class="btn btn-danger">Unrelated Components</button>
+            </div> 
+            <div class = "col-md-2">
+              <button  routerLink = "/colorattribute" class="btn btn-warning">Attribute Directive</button>
+            </div>
+            <router-outlet></router-outlet>
+    </div> -->
 
-<hr/>
-<div class ="row">
-  <div class ="col-md-12">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+      <a class="navbar-brand" routerLink = "/home">Somya Das</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" routerLink = "/databinding">Data Biniding <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" routerLink = "/product">Product</a>
+          <a class="nav-item nav-link" routerLink = "/purchase">Master Details</a>
+          <a class="nav-item nav-link" routerLink = "/unrelatedcomponent">Unrelated Components</a>
+          <a class="nav-item nav-link" routerLink = "/colorattribute">Attribute Directive</a>
+          <a class="nav-item nav-link" routerLink = "/globalerror">Global Error</a>
+          
+        </div>
+      </div>
+    </nav>
+    <router-outlet></router-outlet>
+  </div>
+
+    
+
+
 
   
   
-  <app-tshirtdatabinding *ngIf = "showImageChangeDemo"></app-tshirtdatabinding>
+  <!-- <app-tshirtdatabinding *ngIf = "showImageChangeDemo"></app-tshirtdatabinding>
   <app-product *ngIf = "showProductListDemo"></app-product>
 </div>
   <app-purchase *ngIf = "showMasterDetails"></app-purchase>
   
-
-
+  <app-ncomponent *ngIf = "showUnrelatedComponents"></app-ncomponent>
+  <app-colorattribute *ngIf = "showAttributeDirective"></app-colorattribute> -->
   
 
-  </div>
-</div>
 
     
     

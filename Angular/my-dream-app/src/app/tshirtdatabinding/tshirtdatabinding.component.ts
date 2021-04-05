@@ -13,7 +13,8 @@ export class TshirtdatabindingComponent implements OnInit {
   }
   
   height = 300;
-   width = 300;
+  width = 300;
+   
    imgSource = '../assets/front1.jpg';
 
    changeTShirtMouseEnter(): void{
@@ -22,4 +23,5 @@ export class TshirtdatabindingComponent implements OnInit {
    changeTShirtMouseExit(): void{
       this.imgSource = '../assets/front1.jpg';
    }
+   
 }
