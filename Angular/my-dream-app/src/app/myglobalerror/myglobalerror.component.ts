@@ -8,9 +8,9 @@ import { Component, OnInit } from '@angular/core';
 export class MyglobalerrorComponent implements OnInit {
 
   constructor() { }
-  imgSource1 = '../assets/mygerrorhtml.PNG';
-  imgSource2 = '../assets/mygerrorts.PNG';
-  imgSource3 = '../assets/provider.PNG';
+  imgSource1 = '../assets/myglobalerrorhtml.jpg';
+  imgSource2 = '../assets/myglobalerrorts.jpg';
+  imgSource3 = '../assets/provide.jpg';
   
   errors : any = undefined;
   
