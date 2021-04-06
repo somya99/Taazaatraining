@@ -10,12 +10,10 @@ export class ChangecolorDirective {
   changeBgColor(color : string){
     this.renderer.setStyle(this.el.nativeElement,'color', color);
   }
-  @HostListener('click')foo(){
-    alert("hello");
-  }
+  
   @HostListener('mouseenter') abc(){
     this.changeBgColor(this.color);
-    this.hostborder = '5px solid blue';
+    this.hostborder = '5px solid purple';
   }
   @HostListener('mouseleave') xyz(){
     this.changeBgColor('black');

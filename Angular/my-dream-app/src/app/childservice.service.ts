@@ -21,8 +21,15 @@ export class ChildserviceService {
   }
   setPrice(price : number){
     this.product.Price = price;
-    this.product$.next(this.product);
+    //this.product$.next(this.product);
 
+  }
+
+  updateProduct(p : IProduct){
+    this.product = {
+      ...p
+    }
+    this.product$.next(this.product);
   }
   
 }

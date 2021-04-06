@@ -1,7 +1,14 @@
 <hr/>
-<h1 class= "text-danger text-center"><b>Product List with Details</b></h1>
+<h1 class= "text-danger text-center" style = "background-color: rgba(72, 112, 165, 0.199);"><b>Product List with Details</b></h1>
+<h3>Enter title to search:</h3>
+<input type="text" [(ngModel)] = 'searchText' class="form-control" placeholder ="Search using Title"><br>
+<h3>Enter Price to search:</h3>
+<input type="text" [(ngModel)] = 'searchPrice' class="form-control" placeholder ="Search using Price"><br>
+<!-- <div class = "alert alert-danger" *ngIf = "productForm?.get('Price')?.dirty && productForm?.get('Price')?.errors && productForm?.get('Price')?.errors?.priceRange">
+    Price should be in between {{min}} to {{max}} rupees
+</div> -->
 <div class = "row">
-    <table class = "table">
+    <table class = "table"> 
         <thead>
             <tr>
                 <th>
@@ -25,7 +32,7 @@
             </tr>
         </thead>
         <tbody>
-            <tr *ngFor = "let p of products">
+            <tr *ngFor = "let p of products | productsearch : searchText | productpricefilter : searchPrice">
                 <td>
                     {{p.Id}}
                 </td>
@@ -60,11 +67,11 @@
         </tbody>
     </table>
 </div>
-<br>
+<br><br><br><br>
 <div class ="row">
   <div class ="col-md-12">
-      <footer>
-          <p style = "color : blue"><b>This is a demo of Structure Directive in Angular. An interface having properties of Product get exported. The various enteries of product is done with the help of service. Table format is used to display the product list detail. Pipe is used in Price to get currency in INR format and in Expiry date to diplay date format. inStock is displayed by applying conditions in Angular Template, if it is in stock then display green tick symbol and if out of stock then display red cross long with a button(Order Now). Bootstrap cdn is beign used to get access of font awesome icons.  </b></p>
-      </footer>
+      <div class = "footer">
+          <p style = "color : rgb(125, 125, 136)"><b>This is a demo of Structure Directive in Angular. An interface having properties of Product get exported. The various enteries of product is done with the help of service. Table format is used to display the product list detail. Pipe is used in Price to get currency in INR format and in Expiry date to diplay date format. inStock is displayed by applying conditions in Angular Template, if it is in stock then display green tick symbol and if out of stock then display red cross long with a button(Order Now). Bootstrap cdn is beign used to get access of font awesome icons.  </b></p>
+      </div>
   </div>
 </div>

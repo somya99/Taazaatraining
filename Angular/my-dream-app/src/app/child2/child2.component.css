@@ -14,3 +14,13 @@ table {
     background-color: #09496e;
     color: white;
   }
+
+  .col-md-12 {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(234, 0, 255, 0.199);
+    color: white;
+    text-align: center;
+  }

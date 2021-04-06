@@ -1,5 +1,5 @@
 import { ErrorHandler, NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
@@ -18,7 +18,10 @@ import { ColorattributeComponent } from './colorattribute/colorattribute.compone
 import { NcomponentComponent } from './ncomponent/ncomponent.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './home/home.component';
-import { MyglobalerrorComponent } from './myglobalerror/myglobalerror.component'; 
+import { MyglobalerrorComponent } from './myglobalerror/myglobalerror.component';
+import { LoginformComponent } from './loginform/loginform.component';
+import { ProductsearchPipe } from './productsearch.pipe';
+import { ProductpricefilterPipe } from './productpricefilter.pipe'; 
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,11 +36,16 @@ import { MyglobalerrorComponent } from './myglobalerror/myglobalerror.component'
     ColorattributeComponent,
     NcomponentComponent,
     HomeComponent,
-    MyglobalerrorComponent
+    MyglobalerrorComponent,
+    LoginformComponent,
+    ProductsearchPipe,
+    ProductpricefilterPipe
   ],
   imports: [
     BrowserModule, 
-    FormsModule, BrowserAnimationsModule,
+    FormsModule, 
+    ReactiveFormsModule,
+    BrowserAnimationsModule,
     AppRoutingModule,
     MatExpansionModule
   ],

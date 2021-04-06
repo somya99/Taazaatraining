@@ -1,17 +1,57 @@
 <hr/>
-<div class = "row">
-    
-    <div class = "col-md-8">
-<h1 class= "text-danger"><b>Communication between Unrelated Components  </b></h1>
 
 
-    <h3>Enter Price:</h3>
+<div class="container">
+    <div class ="row">
+        <div class = "col-md-4">
+
+        </div>
+        <div class = "col-md-5">
+      <h1 class= "text-danger" style = "background-color: rgba(72, 112, 165, 0.199);"><b>Component 1 - Enter the details </b></h1>
+      <form (ngSubmit) ='updateProduct()' [formGroup] = 'productForm' novalidate class = "form">
+        <input formControlName = 'Id' type = "number" class = "form-control"/>
+        <div class = "alert alert-danger" *ngIf = "productForm?.get('Id')?.hasError('required') && productForm?.get('Id')?.touched">
+          Id is required
+      </div>
+        <br/>
+        <input formControlName = 'Title' type = "string" class = "form-control" />
+        <div class = "alert alert-danger" *ngIf = "productForm?.get('Title')?.hasError('required') && productForm?.get('Title')?.touched">
+          Title is required
+      </div>
+        <br/>
+        <input formControlName = 'Price' type = "number" class = "form-control" />
+        <div class = "alert alert-danger" *ngIf = "productForm?.get('Price')?.dirty && productForm?.get('Price')?.errors && productForm?.get('Price')?.errors?.priceRange">
+          Price should be in between {{min}} to {{max}} rupees
+      </div>
+        <br/>
+        <input formControlName = 'ExpiryDate' type = "string" class = "form-control" />
+        <div class = "alert alert-danger" *ngIf = "productForm?.get('ExpiryDate')?.hasError('required') && productForm?.get('ExpiryDate')?.touched">
+          ExpiryDate is required
+      </div>
+        <br/>
+        <input formControlName = 'Quantity' type = "number" class = "form-control" />
+        <div class = "alert alert-danger" *ngIf = "productForm?.get('Quantity')?.hasError('required') && productForm?.get('Quantity')?.touched">
+          Quantity is required
+      </div>
+        <br/>
+        <input formControlName = 'isInStock' type = "text" class = "form-control" />
+        <div class = "alert alert-danger" *ngIf = "productForm?.get('isInStock')?.hasError('required') && productForm?.get('isInStock')?.touched">
+          isInStock is required
+      </div>
+        <br/>
+        <button type = "submit" [disabled] = 'productForm.invalid' class = "btn btn-danger">Update Product</button>
+        <button type = "button" (click) = 'cancel()' class = "btn btn-info">Reset</button>
+    </form>
+      </div>
+      
+  </div>
+</div>
+
+    <!-- <h3>Enter Price:</h3>
     <input type="number" [(ngModel)] = "data" class="form-control"><br>
     
   
   <br>
-  <button (click) ='setData()' class="btn btn-info">Set Price</button>
-  <hr/>
-</div>
-</div>
+  <button (click) ='setData()' class="btn btn-info">Set Price</button> -->
+  
 

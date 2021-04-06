@@ -12,7 +12,8 @@
   <button>Get Data</button>
 </div>
 </div> -->
-<h1 class= "text-danger"><b>Product Information</b></h1>
+<br><br>
+<h1 class= "text-danger " style = "background-color: rgba(72, 112, 165, 0.199);"><b>Component 2 - Product Information</b></h1>
 <div class = "row">
     <table class = "table">
         <thead>
@@ -39,20 +40,21 @@
         </thead>
         <tbody>
             <tr>
-                <td>{{iproduct.Id}}</td>
-                <td>{{iproduct.Title}}</td>
-                <td>{{iproduct.Price | currency : 'INR'}}</td>
-                <td>{{iproduct.ExpiryDate | date}}</td>
-                <td>{{iproduct.isInStock}}</td>
-                <td>{{iproduct.Quantity}}</td>
+                <td>{{product.Id}}</td>
+                <td>{{product.Title}}</td>
+                <td>{{product.Price | currency : 'INR'}}</td>
+                <td>{{product.ExpiryDate | date}}</td>
+                <td>{{product.isInStock}}</td>
+                <td>{{product.Quantity}}</td>
             </tr>
         </tbody>
     </table>
 </div>
+<br><br><br><br>
 <div class ="row">
     <div class ="col-md-12">
         <footer>
-            <p style = "color : blue"><b>This is a demo of Component Communication among components that are not related to each other. Here declared two components one is having a input box to accept the price entry and a button to set the price. ngModel is used for data binding that would be helpful in setting the price of entry which is declared in another component. Services is used to communicate among two components. When price get set in input parameter of a component that will get updated in the prices of entry displayed in another component.  </b></p>
+            <p style = "color :rgb(125, 125, 136)"><b>This is a demo of Component Communication among components that are not related to each other. Here declared two components one is having reactive form with input boxes to accept the product entry and a button to update the product entry and a reset button. Services is used to communicate among two components. When product details get entered in input parameter of a component 1 that will get updated in the entry displayed in component 2.  </b></p>
         </footer>
     </div>
 </div>

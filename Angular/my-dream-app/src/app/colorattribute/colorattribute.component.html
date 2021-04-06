@@ -1,15 +1,17 @@
 <hr/>
+<h1 class= "text-danger text-center" style = "background-color: rgba(72, 112, 165, 0.199);"><b>Changing color of text using Attribute Directive</b></h1>
 <div class ="row">
     <div class ="col-md-4">
 
     </div>
     <div class ="col-md-4">
-<h1 class= "text-danger text-center"><b>Changing color of text using Attribute Directive</b></h1>
-<h3>Enter color:</h3>
+
+<br>
+<h2>Enter color:</h2>
 <input type="text" [(ngModel)] ='c'/>
 <br>
-<br>
-<div appChangecolor [color] ='c'>Hello welcome to Attribute Directive</div>
+<br><br><br>
+<div appChangecolor [color] ='c'><h1><b>Put Mouse over text</b></h1></div>
 </div>
 <div class ="col-md-4">
 
@@ -19,8 +21,8 @@
 <br>
 <div class ="row">
     <div class ="col-md-12">
-        <footer>
-            <p style = "color : blue"><b>This is a demo of Attribute Directive in Angular. The main aim is to set color of text along with border when mouse is hovered over it. It is achieved with the help of service. Host is div, Host binding is used for border and Host Listener is used for click, mouse enter and mouse leave events. Color of text is set by default to green and user can change it using input parameter in the display.  </b></p>
-        </footer>
+        <div class="footer">
+            <p style = "color : rgb(125, 125, 136)"><b>This is a demo of Attribute Directive in Angular. The main aim is to set color of text along with border when mouse is hovered over it. It is achieved with the help of service. Host is div, Host binding is used for border and Host Listener is used for mouse enter and mouse leave events. Color of text is set by default to green and user can change it using input parameter in the display.  </b></p>
+        </div>
     </div>
 </div>
