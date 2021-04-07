@@ -1,8 +1,8 @@
 <hr/>
 
-<div class="container">
+<div class="container ">
     <div class ="row">
-        <div class = "col-md-6">
+        <div class = "col-md-6 text-left bg-white rounded shadow py-3">
             <h1 class ="text-danger text-center" style = "background-color: rgba(72, 112, 165, 0.199);"><b>Login Form using Reactive Form</b></h1>   
         <form (ngSubmit) ='login()' [formGroup] = 'loginForm' novalidate class = "form">
             <input formControlName = 'email'
@@ -51,7 +51,7 @@
             <button type = "button" (click) = 'cancel()' class = "btn btn-info">Reset</button>
         </form>
     </div>
-    <div class = "col-md-6">
+    <div class = "col-md-6 text-left bg-white rounded shadow py-3">
         <h1 class ="text-danger text-center" style = "background-color: rgba(72, 112, 165, 0.199);"><b>Login Form using Template Driven Form</b></h1>
         <form novalidate #loginform="ngForm" (ngSubmit)="onSubmit(loginform)">
             <div class="form-group">

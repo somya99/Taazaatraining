@@ -21,7 +21,14 @@ import { HomeComponent } from './home/home.component';
 import { MyglobalerrorComponent } from './myglobalerror/myglobalerror.component';
 import { LoginformComponent } from './loginform/loginform.component';
 import { ProductsearchPipe } from './productsearch.pipe';
-import { ProductpricefilterPipe } from './productpricefilter.pipe'; 
+import { ProductpricefilterPipe } from './productpricefilter.pipe';
+import { SubjectComponent } from './subject/subject.component';
+import { BehaviorsubjectComponent } from './behaviorsubject/behaviorsubject.component';
+import { ReplaysubjectComponent } from './replaysubject/replaysubject.component';
+import { AsyncsubjectComponent } from './asyncsubject/asyncsubject.component';
+import { RxJSsubjectComponent } from './rx-jssubject/rx-jssubject.component'; 
+import {MatTableModule} from '@angular/material/table';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -39,7 +46,12 @@ import { ProductpricefilterPipe } from './productpricefilter.pipe';
     MyglobalerrorComponent,
     LoginformComponent,
     ProductsearchPipe,
-    ProductpricefilterPipe
+    ProductpricefilterPipe,
+    SubjectComponent,
+    BehaviorsubjectComponent,
+    ReplaysubjectComponent,
+    AsyncsubjectComponent,
+    RxJSsubjectComponent,
   ],
   imports: [
     BrowserModule, 
@@ -47,7 +59,8 @@ import { ProductpricefilterPipe } from './productpricefilter.pipe';
     ReactiveFormsModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-    MatExpansionModule
+    MatExpansionModule,
+    MatTableModule
   ],
   providers: [{provide: ErrorHandler, useClass: MyerrorhandlerService}],
   bootstrap: [AppComponent]

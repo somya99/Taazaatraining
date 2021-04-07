@@ -24,6 +24,8 @@ export class ProductComponent implements OnInit {
   // min = 0;
   // max = 1000;
   // productForm : FormGroup;
+  data : string;
+  price : number;
   constructor(private dataservice : DataService) { }
   searchText : string;
   searchPrice : number;
@@ -35,6 +37,8 @@ export class ProductComponent implements OnInit {
     //   Price : new FormControl(null, [priceRangeValidator(this.min, this.max)])
     // });
   }
+    displayedColumns : string[] = ['Id', 'Title', 'Price', 'ExpiryDate', 'Quantity'];
+  
 
   
 

@@ -1,0 +1,80 @@
+<!-- <hr/>
+<div class = "container">
+  <h1 class = "text-center text-danger "><b>RxJS Subjects Demo</b></h1>
+
+  <br>
+  <br>
+  <h2>Click Button for various Subject Working Demo</h2>
+  <div class = "row">
+      
+    <div class = "col-md-2">
+        <button (click) = "showsubjectdemo" class ="btn btn-danger">Subject</button>
+    </div>
+    <div class = "col-md-2">
+        <button (click) = "showbehaviorsubjectdemo" class ="btn btn-danger">Behavior Subject</button>
+    </div>
+    <div class = "col-md-2">
+        <button (click) = "showreplaysubjectdemo" class ="btn btn-danger">Replay Subject</button>
+    </div>
+    <div class = "col-md-2">
+        <button (click) = "showasyncsubjectdemo" class ="btn btn-danger">Async Subject</button>
+    </div>
+</div>
+
+<app-subject *ngIf = "showSubject"></app-subject>
+<app-behaviorsubject *ngIf = "showBehaviorSubject"></app-behaviorsubject>
+<app-replaysubject *ngIf = "showReplaySubject"></app-replaysubject>
+<app-asyncsubject *ngIf = "showAsyncSubject"></app-asyncsubject>
+</div> -->
+<br>
+<br>
+<div class="text-center">
+    <h1 class = "text-center text-danger" style = "background-color: rgba(72, 112, 165, 0.199);"><b>Select RxJs Subject</b></h1>
+<div class="container">
+    
+    <ul class="nav nav-pills">
+        <div class="col-md-3">
+        <li class="nav-item">
+            
+            <a class="nav-link  nav-space text-white" style="background-color: #09496e;" routerLink='/rxjssubject/subject'>Subject</a>
+        
+        </li>
+    </div>
+    <div class="col-md-3">
+        <li class="nav-item ">
+            
+            <a class="nav-link  nav-space text-white" style="background-color: #09496e;" routerLink='/rxjssubject/behavioursubject'>Behavour Subject</a>
+        
+        </li>
+    </div>
+    <div class="col-md-3">
+        <li class="nav-item ">
+            
+            <a class="nav-link  nav-space text-white" style="background-color :#09496e;" routerLink='/rxjssubject/replaysubject'>Replay Subject</a>
+        
+        </li>
+    </div>
+    <div class="col-md-3">
+        <li class="nav-item ">
+            
+            <a class="nav-link  nav-space text-white" style="background-color: #09496e;" routerLink='/rxjssubject/asyncsubject'>Async Subject</a>
+        
+        </li>
+    </div>
+    </ul>
+</div>
+
+<hr>
+    <br>
+ 
+    <router-outlet></router-outlet>
+  </div>
+  <br><br><br><br><br><br><br><br>
+  <div class ="row">
+    <div class ="col-md-12">
+        <div class = "footer">
+            <p style = "color : rgb(125, 125, 136)"><b>This is RxJS Subject demo in Angular. There are four buttons represents subject, behavior subject, replay subject and async subject. Each subject have three subscribers which denotes its working in respect of counter.  </b></p>
+        </div>
+    </div>
+  </div>
+  
