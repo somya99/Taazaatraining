@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\S S INFOTECH\\source\\repos\\Lift\\Lift.csproj",
+      "projectUniqueName": "C:\\Users\\S S INFOTECH\\source\\repos\\Work From Home(Assignment)\\Lift\\Lift.csproj",
       "projectName": "Lift",
-      "projectPath": "C:\\Users\\S S INFOTECH\\source\\repos\\Lift\\Lift.csproj",
+      "projectPath": "C:\\Users\\S S INFOTECH\\source\\repos\\Work From Home(Assignment)\\Lift\\Lift.csproj",
       "packagesPath": "C:\\Users\\S S INFOTECH\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\S S INFOTECH\\source\\repos\\Lift\\obj\\",
+      "outputPath": "C:\\Users\\S S INFOTECH\\source\\repos\\Work From Home(Assignment)\\Lift\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\S S INFOTECH\\AppData\\Roaming\\NuGet\\NuGet.Config",

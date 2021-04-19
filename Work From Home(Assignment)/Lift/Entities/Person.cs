@@ -34,5 +34,14 @@ namespace Lift.Entities
         {
             this.ButtonPressed(this.DirectionToGoIn);
         }
+        public void SetReached()
+        {
+            this.WaitingStatus = WaitingStatus.Reached;
+        }
+
+        public void SetOnboard()
+        {
+            this.WaitingStatus = WaitingStatus.BoardedLift;
+        }
     }
 }
