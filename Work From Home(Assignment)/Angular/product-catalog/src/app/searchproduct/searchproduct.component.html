@@ -1,0 +1,77 @@
+<hr/>
+<div class = "container">
+<div classs = "row">
+<div class = "col-md-8 " >
+<h3>Enter Id to search:</h3>
+<input type="text" [(ngModel)] = 'searchId' class="form-control" placeholder ="Search using Id"><br>
+</div>
+<div class = "col-md-8">
+    <h3>Enter Name to search:</h3>
+    <input type="text" [(ngModel)] = 'searchName' class="form-control" placeholder ="Search using Name"><br>
+    </div>
+    <div class = "col-md-8">
+        <h3>Enter Short Code to search:</h3>
+        <input type="text" [(ngModel)] = 'searchShortCode' class="form-control" placeholder ="Search using Short Code"><br>
+        </div>
+<div class = "col-md-8">
+    <h3>Enter Price to search:</h3>
+    <input type="text" [(ngModel)] = 'searchPrice' class="form-control" placeholder ="Search using Price"><br>
+    </div>
+</div>
+
+</div>
+<h3 class= "text-danger text-center" style = "background-color: rgba(72, 112, 165, 0.199);"><b>Product List with Details</b></h3>
+<div class = "row">
+    <table class = "table"> 
+        <thead>
+            <tr>
+                <th>
+                    Id
+                </th>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Manufacturer
+                </th>
+                <th>
+                    Short Code
+                </th>
+                <th>
+                    Category
+                </th>
+                <th>
+                    Description
+                </th>
+                <th>
+                    Selling Price
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor = "let p of product | productid : searchId | productname : searchName | productshortcode : searchShortCode | productprice : searchPrice">
+                <td>
+                    {{p.ProductId}}
+                </td>
+                <td>
+                    {{p.ProductName}}
+                </td>
+                <td>
+                    {{p.Manufacturer}}
+                </td>
+                <td>
+                    {{p.ProductShortCode}}
+                </td>
+                <td>
+                    {{p.Category}}
+                </td>
+                <td>
+                    {{p.Description}}
+                </td>
+                <td>
+                    {{p.SellingPrice | currency : 'INR'}}
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
