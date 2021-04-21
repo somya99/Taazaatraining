@@ -5,34 +5,35 @@ import { ICategory } from './category/ICategory';
   providedIn: 'root'
 })
 export class CategoryserviceService {
-  category : ICategory[] = [];
+  category : ICategory[] = [
+    {
+      CategoryId : 1,
+      CategoryName : "Stationary",
+      CategoryShortCode : "STN",
+      Description : "Used for creating" 
+    },
+    {
+      CategoryId : 2,
+      CategoryName : "Food",
+      CategoryShortCode : "FD",
+      Description : "Used to eat" 
+    },
+    {
+      CategoryId : 3,
+      CategoryName : "Crockery",
+      CategoryShortCode : "CRK",
+      Description : "Used in kitchen" 
+    },
+  ];
   constructor() { }
   id : number;
   name : string;
   shortcode : string;
   description : string;
   removeId : number;
+
   getCategory() : ICategory[] {
-    return[
-      {
-        CategoryId : 1,
-        CategoryName : "Stationary",
-        CategoryShortCode : "STN",
-        Description : "Used for creating" 
-      },
-      {
-        CategoryId : 2,
-        CategoryName : "Food",
-        CategoryShortCode : "FD",
-        Description : "Used to eat" 
-      },
-      {
-        CategoryId : 3,
-        CategoryName : "Crockery",
-        CategoryShortCode : "CRK",
-        Description : "Used in kitchen" 
-      },
-    ]
+    return this.category;
   }
   addCategory() : ICategory[]{
     this.category.push({
