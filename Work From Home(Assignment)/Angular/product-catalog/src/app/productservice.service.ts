@@ -5,7 +5,53 @@ import { IProduct } from './product/IProduct';
   providedIn: 'root'
 })
 export class ProductserviceService {
-  product : IProduct[] = [];
+  product : IProduct[] = [
+    {
+      ProductId : 1,
+      ProductName : "Cup",
+      Manufacturer : "Gala",
+      ProductShortCode : "CUP",
+      Category : "Crockery",
+      Description : "Used in kitchen",
+      SellingPrice : 250,
+    },
+    {
+      ProductId : 2,
+      ProductName : "Pen",
+      Manufacturer : "Classmate",
+      ProductShortCode : "PEN",
+      Category : "Stationary",
+      Description : "Used for creating",
+      SellingPrice : 100,
+    },
+    {
+      ProductId : 3,
+      ProductName : "Bread",
+      Manufacturer : "Britannia",
+      ProductShortCode : "BRD",
+      Category : "Food",
+      Description : "Used to eat",
+      SellingPrice : 120,
+    },
+    {
+      ProductId : 4,
+      ProductName : "Pencil",
+      Manufacturer : "Classmate",
+      ProductShortCode : "PNCL",
+      Category : "Stationary",
+      Description : "Used for creating",
+      SellingPrice : 50,
+    },
+    {
+      ProductId : 5,
+      ProductName : "Plate",
+      Manufacturer : "Gala",
+      ProductShortCode : "PLT",
+      Category : "Crockery",
+      Description : "Used in Kitchen",
+      SellingPrice : 400,
+    },
+  ];
   id : number;
   name : string;
   manu : string;
@@ -16,53 +62,7 @@ export class ProductserviceService {
   constructor() { }
   removeId! : number;
   getProduct() : IProduct[] {
-    return[
-      {
-        ProductId : 1,
-        ProductName : "Cup",
-        Manufacturer : "Gala",
-        ProductShortCode : "CUP",
-        Category : "Crockery",
-        Description : "Used in kitchen",
-        SellingPrice : 250,
-      },
-      {
-        ProductId : 2,
-        ProductName : "Pen",
-        Manufacturer : "Classmate",
-        ProductShortCode : "PEN",
-        Category : "Stationary",
-        Description : "Used for creating",
-        SellingPrice : 100,
-      },
-      {
-        ProductId : 3,
-        ProductName : "Bread",
-        Manufacturer : "Britannia",
-        ProductShortCode : "BRD",
-        Category : "Food",
-        Description : "Used to eat",
-        SellingPrice : 120,
-      },
-      {
-        ProductId : 4,
-        ProductName : "Pencil",
-        Manufacturer : "Classmate",
-        ProductShortCode : "PNCL",
-        Category : "Stationary",
-        Description : "Used for creating",
-        SellingPrice : 50,
-      },
-      {
-        ProductId : 5,
-        ProductName : "Plate",
-        Manufacturer : "Gala",
-        ProductShortCode : "PLT",
-        Category : "Crockery",
-        Description : "Used in Kitchen",
-        SellingPrice : 400,
-      },
-    ]
+    return this.product;
   }
 
   addProduct() : IProduct[]{
