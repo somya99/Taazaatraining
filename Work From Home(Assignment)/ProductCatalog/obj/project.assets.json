@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\S S INFOTECH\\source\\repos\\ProductCatalog\\ProductCatalog.csproj",
+      "projectUniqueName": "C:\\Users\\S S INFOTECH\\source\\repos\\Work From Home(Assignment)\\ProductCatalog\\ProductCatalog.csproj",
       "projectName": "ProductCatalog",
-      "projectPath": "C:\\Users\\S S INFOTECH\\source\\repos\\ProductCatalog\\ProductCatalog.csproj",
+      "projectPath": "C:\\Users\\S S INFOTECH\\source\\repos\\Work From Home(Assignment)\\ProductCatalog\\ProductCatalog.csproj",
       "packagesPath": "C:\\Users\\S S INFOTECH\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\S S INFOTECH\\source\\repos\\ProductCatalog\\obj\\",
+      "outputPath": "C:\\Users\\S S INFOTECH\\source\\repos\\Work From Home(Assignment)\\ProductCatalog\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\S S INFOTECH\\AppData\\Roaming\\NuGet\\NuGet.Config",

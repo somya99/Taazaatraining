@@ -11,3 +11,16 @@ C:\Users\S S INFOTECH\source\repos\ProductCatalog\obj\Debug\netcoreapp3.1\Produc
 C:\Users\S S INFOTECH\source\repos\ProductCatalog\obj\Debug\netcoreapp3.1\ProductCatalog.dll
 C:\Users\S S INFOTECH\source\repos\ProductCatalog\obj\Debug\netcoreapp3.1\ProductCatalog.pdb
 C:\Users\S S INFOTECH\source\repos\ProductCatalog\obj\Debug\netcoreapp3.1\ProductCatalog.genruntimeconfig.cache
+C:\Users\S S INFOTECH\source\repos\Work From Home(Assignment)\ProductCatalog\bin\Debug\netcoreapp3.1\ProductCatalog.exe
+C:\Users\S S INFOTECH\source\repos\Work From Home(Assignment)\ProductCatalog\bin\Debug\netcoreapp3.1\ProductCatalog.deps.json
+C:\Users\S S INFOTECH\source\repos\Work From Home(Assignment)\ProductCatalog\bin\Debug\netcoreapp3.1\ProductCatalog.runtimeconfig.json
+C:\Users\S S INFOTECH\source\repos\Work From Home(Assignment)\ProductCatalog\bin\Debug\netcoreapp3.1\ProductCatalog.runtimeconfig.dev.json
+C:\Users\S S INFOTECH\source\repos\Work From Home(Assignment)\ProductCatalog\bin\Debug\netcoreapp3.1\ProductCatalog.dll
+C:\Users\S S INFOTECH\source\repos\Work From Home(Assignment)\ProductCatalog\bin\Debug\netcoreapp3.1\ProductCatalog.pdb
+C:\Users\S S INFOTECH\source\repos\Work From Home(Assignment)\ProductCatalog\obj\Debug\netcoreapp3.1\ProductCatalog.csprojAssemblyReference.cache
+C:\Users\S S INFOTECH\source\repos\Work From Home(Assignment)\ProductCatalog\obj\Debug\netcoreapp3.1\ProductCatalog.AssemblyInfoInputs.cache
+C:\Users\S S INFOTECH\source\repos\Work From Home(Assignment)\ProductCatalog\obj\Debug\netcoreapp3.1\ProductCatalog.AssemblyInfo.cs
+C:\Users\S S INFOTECH\source\repos\Work From Home(Assignment)\ProductCatalog\obj\Debug\netcoreapp3.1\ProductCatalog.csproj.CoreCompileInputs.cache
+C:\Users\S S INFOTECH\source\repos\Work From Home(Assignment)\ProductCatalog\obj\Debug\netcoreapp3.1\ProductCatalog.dll
+C:\Users\S S INFOTECH\source\repos\Work From Home(Assignment)\ProductCatalog\obj\Debug\netcoreapp3.1\ProductCatalog.pdb
+C:\Users\S S INFOTECH\source\repos\Work From Home(Assignment)\ProductCatalog\obj\Debug\netcoreapp3.1\ProductCatalog.genruntimeconfig.cache

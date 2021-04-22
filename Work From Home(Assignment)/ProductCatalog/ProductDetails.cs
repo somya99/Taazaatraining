@@ -1,61 +1,95 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace ProductCatalog
 {
     public class ProductDetails
     {
-        public List<Product> product = new List<Product>
+        //list of product
+        public static List<Product> product = new List<Product>
         {
             new Product
             {
-                ID = 1,
                 Name = "Cup",
-                Manufacturer = "Ele",
+                Manufacturer = "Gala",
                 ShortCode = "CUP",
+                Categories = "Crockery",
+                Description = "Used in kitchen",
                 SellingPrice = 100
             },
             new Product
             {
-                ID = 2,
                 Name = "Pen",
-                Manufacturer = "George",
+                Manufacturer = "Classmate",
                 ShortCode = "PEN",
+                Categories = "Stationary",
+                Description = "Used to create",
                 SellingPrice = 90
             },
             new Product
             {
-                ID = 3,
                 Name = "Bread",
-                Manufacturer = "Stephen",
+                Manufacturer = "Britannia",
                 ShortCode = "BRD",
+                Categories = "Food",
+                Description = "Used to eat",
                 SellingPrice = 170
             },
             new Product
             {
-                ID = 4,
                 Name = "Plate",
-                Manufacturer = "Ele",
+                Manufacturer = "Gala",
                 ShortCode = "PLT",
+                Categories = "Crockery",
+                Description = "Used in kitchen",
                 SellingPrice = 250
             },
             new Product
             {
-                ID = 5,
                 Name = "Pencil",
-                Manufacturer = "George",
+                Manufacturer = "Doms",
                 ShortCode = "PNCL",
+                Categories = "Stationary",
+                Description = "Used to create",
                 SellingPrice = 50
             }
 
         };
-        private static int Id = 5;
-
-        static int IncreaseId()
+        //operations
+        public void level2Product()
         {
-            return ++Id;
+            Console.WriteLine("LEVEL 2");
+            Console.WriteLine("\t a) Enter a Product");
+            Console.WriteLine("\t b) List all Product");
+            Console.WriteLine("\t c) Delete a Product");
+            Console.WriteLine("\t d) Search a Product");
+            Console.WriteLine("\t e) LEVEL 1");
+            Console.WriteLine("Enter an option : ");
+            string optionP = Console.ReadLine();
+            if (optionP == "a")
+            {
+                AddProduct();
+            }
+            else if (optionP == "b")
+            {
+                DisplayProduct();
+            }
+            else if (optionP == "c")
+            {
+                DeleteProduct();
+            }
+            else if (optionP == "d")
+            {
+                SearchProduct();
+            }
+            else if (optionP == "e")
+            {
+                Console.Clear();
+            }
         }
+        //display product
         public void DisplayProduct()
         {
             Console.WriteLine("List of Products");
@@ -63,40 +97,99 @@ namespace ProductCatalog
             {
                 Console.WriteLine(p);
             }
+
+            Console.ReadKey();
         }
+        //add product
         public void AddProduct()
         {
-            int newId = IncreaseId();
             Console.WriteLine("Enter Product Name");
             string newName = Console.ReadLine();
             Console.WriteLine("Enter Product Manufacturer");
             string newManufacturer = Console.ReadLine();
             Console.WriteLine("Enter unique Product Short Code");
             string newShortCode = Console.ReadLine();
+            manageShortCode(newShortCode);
+            Console.WriteLine("Enter a Category among the following");
+            CategoryDetails.category.ForEach((element) =>
+            {
+                Console.WriteLine(element.Name + ",\t");
+            });
+            string newcategory = Console.ReadLine();
+            Console.WriteLine("Enter Product Description");
+            string des = Console.ReadLine();
             Console.WriteLine("Enter Product Selling Price greater than 0");
             int newSellingPrice = Convert.ToInt32(Console.ReadLine());
 
             product.Add(new Product
             {
-                ID = newId,
                 Name = newName,
                 Manufacturer = newManufacturer,
                 ShortCode = newShortCode,
+                Categories = newcategory,
+                Description = des,
                 SellingPrice = newSellingPrice
+            });
+            DisplayProduct();
+            Console.ReadKey();
+        }
+        public void manageShortCode(string shortc)
+        {
+
+            product.ForEach((element) =>
+            {
+                if (element.ShortCode == shortc)
+                {
+                    Console.WriteLine("Already used! Try something else");
+                    string elseshortcode = Console.ReadLine();
+                    manageShortCode(elseshortcode);
+                }
             });
 
         }
+        //delete product
         public void DeleteProduct()
         {
-            Console.WriteLine("Enter Product ID");
-            int id = Convert.ToInt32(Console.ReadLine());
-            product.RemoveAt(id - 1);
-            DisplayProduct();
-            //Console.WriteLine("Enter Product Short Code");
-            //string shortc = Console.ReadLine();
-            //product.Remove(shortc);
-            //DisplayProduct();
+            Console.WriteLine("Select a property by which you want to delete");
+            Console.WriteLine("\t a) ID");
+            Console.WriteLine("\t b) Short Code");
+            Console.WriteLine("Enter an option : ");
+            string option = Console.ReadLine();
+
+            if (option == "a")
+            {
+                Console.WriteLine("Enter Product ID");
+                int id = Convert.ToInt32(Console.ReadLine());
+                try
+                {
+                    var data = product.Single((element) => element.ID == id);
+                    product.Remove(data);
+                    DisplayProduct();
+                }
+                catch
+                {
+                    Console.WriteLine("ID does not exist");
+                }
+
+            }
+            else if (option == "b")
+            {
+                Console.WriteLine("Enter Product Short Code");
+                string shortc = Console.ReadLine();
+                try
+                {
+                    var data = product.Single((element) => element.ShortCode == shortc);
+                    product.Remove(data);
+                    DisplayProduct();
+                }
+                catch
+                {
+                    Console.WriteLine("Short Code does not exist");
+                }
+            }
+            Console.ReadKey();
         }
+        //search product
         public void SearchProduct()
         {
             Console.WriteLine("Search by Following Property: ");
@@ -111,36 +204,54 @@ namespace ProductCatalog
             {
                 Console.WriteLine("Enter ID");
                 int id = Convert.ToInt32(Console.ReadLine());
+                bool flag = false;
                 foreach(Product p in product)
                 {
                     if(p.ID == id)
                     {
                         Console.WriteLine(p);
+                        flag = true;
                     }
+                }
+                if(flag == false)
+                {
+                    Console.WriteLine("ID does not exist !");
                 }
             }
             else if (option == "b")
             {
                 Console.WriteLine("Enter Name");
                 string name = Console.ReadLine();
+                bool flag = false;
                 foreach (Product p in product)
                 {
                     if (p.Name == name)
                     {
                         Console.WriteLine(p);
+                        flag = true;
                     }
+                }
+                if (flag == false)
+                {
+                    Console.WriteLine("Name does not exist !");
                 }
             }
             else if (option == "c")
             {
                 Console.WriteLine("Enter Short Code");
                 string shortcode = Console.ReadLine();
+                bool flag = false;
                 foreach (Product p in product)
                 {
                     if (p.ShortCode == shortcode)
                     {
                         Console.WriteLine(p);
+                        flag = true;
                     }
+                }
+                if (flag == false)
+                {
+                    Console.WriteLine("Short Code does not exist !");
                 }
             }
             else if (option == "d")
@@ -155,6 +266,7 @@ namespace ProductCatalog
                     }
                 }
             }
+            Console.ReadKey();
         }
     }
 }
